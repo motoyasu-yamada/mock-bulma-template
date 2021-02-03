@@ -1,0 +1,1381 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bulma</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/javascripts/application.js"></script>
+    <script type="text/javascript" src="/javascripts/bulma-calendar.min.js"></script>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="https://bulma.io">
+            <img
+              src="https://bulma.io/images/bulma-logo.png"
+              width="112"
+              height="28"
+            />
+          </a>
+
+          <a
+            role="button"
+            class="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item"> Home </a>
+
+            <a class="navbar-item"> Documentation </a>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link"> More </a>
+
+              <div class="navbar-dropdown">
+                <a class="navbar-item"> About </a>
+                <a class="navbar-item"> Jobs </a>
+                <a class="navbar-item"> Contact </a>
+                <hr class="navbar-divider" />
+                <a class="navbar-item"> Report an issue </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a class="button is-primary">
+                  <strong>Sign up</strong>
+                </a>
+                <a class="button is-light"> Log in </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section class="section">
+        <nav class="breadcrumb" aria-label="breadcrumbs">
+          <ul>
+            <li><a href="#">Bulma</a></li>
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">Components</a></li>
+            <li class="is-active">
+              <a href="#" aria-current="page">Breadcrumb</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <section class="hero is-primary">
+        <div class="hero-body">
+          <p class="title">Hero title</p>
+          <p class="subtitle">Hero subtitle</p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="columns">
+          <div class="column is-half">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img
+                    src="https://bulma.io/images/placeholders/1280x960.png"
+                    alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img
+                        src="https://bulma.io/images/placeholders/96x96.png"
+                        alt="Placeholder image"
+                      />
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4">John Smith</p>
+                    <p class="subtitle is-6">@johnsmith</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                  <a href="#">#css</a>
+                  <a href="#">#responsive</a>
+                  <br />
+                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column is-half">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img
+                    src="https://bulma.io/images/placeholders/1280x960.png"
+                    alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img
+                        src="https://bulma.io/images/placeholders/96x96.png"
+                        alt="Placeholder image"
+                      />
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4">John Smith</p>
+                    <p class="subtitle is-6">@johnsmith</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                  <a href="#">#css</a>
+                  <a href="#">#responsive</a>
+                  <br />
+                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="content">
+          <h1 class="title is-1">Title 1</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+            accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus,
+            nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat
+            odio, sollicitudin vel erat vel, interdum mattis neque.
+          </p>
+          <h2 class="title is-2">Second level</h2>
+          <p>
+            Curabitur accumsan turpis pharetra
+            <strong>augue tincidunt</strong> blandit. Quisque condimentum
+            maximus mi, sit amet commodo arcu rutrum id. Proin pretium urna vel
+            cursus venenatis. Suspendisse potenti. Etiam mattis sem rhoncus
+            lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.
+          </p>
+          <ul>
+            <li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>
+            <li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>
+            <li>
+              Aliquam nec felis in sapien venenatis viverra fermentum nec
+              lectus.
+            </li>
+            <li>Ut non enim metus.</li>
+          </ul>
+        </div>
+        <h2 class="title is-1">Title 1</h2>
+        <div class="card">
+          <footer class="card-footer">
+            <a href="#" class="card-footer-item">Save</a>
+            <a href="#" class="card-footer-item">Edit</a>
+            <a href="#" class="card-footer-item">Delete</a>
+          </footer>
+        </div>
+        <h2 class="title is-2">Title 2</h2>
+        <div class="card">
+          <div class="card-content">
+            <div class="content">
+              Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at
+              eros. Donec id elit non mi porta gravida at eget metus. Cum sociis
+              natoque penatibus et magnis dis parturient montes, nascetur
+              ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
+            </div>
+          </div>
+        </div>
+        <h3 class="title is-3">Title 3</h3>
+        <h4 class="title is-4">Title 4</h4>
+        <h5 class="title is-5">Title 5</h5>
+        <h6 class="title is-6">Title 6</h6>
+      </section>
+      <section class="section">
+        <aside class="menu">
+          <p class="menu-label">General</p>
+          <ul class="menu-list">
+            <li><a>Dashboard</a></li>
+            <li><a>Customers</a></li>
+          </ul>
+          <p class="menu-label">Administration</p>
+          <ul class="menu-list">
+            <li><a>Team Settings</a></li>
+            <li>
+              <a class="is-active">Manage Your Team</a>
+              <ul>
+                <li><a>Members</a></li>
+                <li><a>Plugins</a></li>
+                <li><a>Add a member</a></li>
+              </ul>
+            </li>
+            <li><a>Invitations</a></li>
+            <li><a>Cloud Storage Environment Settings</a></li>
+            <li><a>Authentication</a></li>
+          </ul>
+          <p class="menu-label">Transactions</p>
+          <ul class="menu-list">
+            <li><a>Payments</a></li>
+            <li><a>Transfers</a></li>
+            <li><a>Balance</a></li>
+          </ul>
+        </aside>
+      </section>
+      <section class="section">
+        <article class="message">
+          <div class="message-header">
+            <p>Hello World</p>
+            <button class="delete" aria-label="delete"></button>
+          </div>
+          <div class="message-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <strong>Pellentesque risus mi</strong>, tempus quis placerat ut,
+            porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam
+            gravida purus diam, et dictum <a>felis venenatis</a> efficitur.
+            Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales,
+            arcu et sollicitudin porttitor, tortor urna tempor ligula, id
+            porttitor mi magna a neque. Donec dui urna, vehicula et sem eget,
+            facilisis sodales sem.
+          </div>
+        </article>
+      </section>
+      <section class="section">
+        <nav class="panel">
+          <p class="panel-heading">Repositories</p>
+          <div class="panel-block">
+            <p class="control has-icons-left">
+              <input class="input" type="text" placeholder="Search" />
+              <span class="icon is-left">
+                <i class="fas fa-search" aria-hidden="true"></i>
+              </span>
+            </p>
+          </div>
+          <p class="panel-tabs">
+            <a class="is-active">All</a>
+            <a>Public</a>
+            <a>Private</a>
+            <a>Sources</a>
+            <a>Forks</a>
+          </p>
+          <a class="panel-block is-active">
+            <span class="panel-icon">
+              <i class="fas fa-book" aria-hidden="true"></i>
+            </span>
+            bulma
+          </a>
+          <a class="panel-block">
+            <span class="panel-icon">
+              <i class="fas fa-book" aria-hidden="true"></i>
+            </span>
+            marksheet
+          </a>
+          <a class="panel-block">
+            <span class="panel-icon">
+              <i class="fas fa-book" aria-hidden="true"></i>
+            </span>
+            minireset.css
+          </a>
+          <a class="panel-block">
+            <span class="panel-icon">
+              <i class="fas fa-book" aria-hidden="true"></i>
+            </span>
+            jgthms.github.io
+          </a>
+          <a class="panel-block">
+            <span class="panel-icon">
+              <i class="fas fa-code-branch" aria-hidden="true"></i>
+            </span>
+            daniellowtw/infboard
+          </a>
+          <a class="panel-block">
+            <span class="panel-icon">
+              <i class="fas fa-code-branch" aria-hidden="true"></i>
+            </span>
+            mojs
+          </a>
+          <label class="panel-block">
+            <input type="checkbox" />
+            remember me
+          </label>
+          <div class="panel-block">
+            <button class="button is-link is-outlined is-fullwidth">
+              Reset all filters
+            </button>
+          </div>
+        </nav>
+      </section>
+      <section class="section">
+        <nav class="pagination" role="navigation" aria-label="pagination">
+          <a class="pagination-previous">Previous</a>
+          <a class="pagination-next">Next page</a>
+          <ul class="pagination-list">
+            <li>
+              <a class="pagination-link" aria-label="Goto page 1">1</a>
+            </li>
+            <li>
+              <span class="pagination-ellipsis">&hellip;</span>
+            </li>
+            <li>
+              <a class="pagination-link" aria-label="Goto page 45">45</a>
+            </li>
+            <li>
+              <a
+                class="pagination-link is-current"
+                aria-label="Page 46"
+                aria-current="page"
+                >46</a
+              >
+            </li>
+            <li>
+              <a class="pagination-link" aria-label="Goto page 47">47</a>
+            </li>
+            <li>
+              <span class="pagination-ellipsis">&hellip;</span>
+            </li>
+            <li>
+              <a class="pagination-link" aria-label="Goto page 86">86</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <section class="section">
+        <div class="tabs is-centered">
+          <ul>
+            <li class="is-active">
+              <a>
+                <span class="icon is-small"
+                  ><i class="fas fa-image" aria-hidden="true"></i
+                ></span>
+                <span>Pictures</span>
+              </a>
+            </li>
+            <li>
+              <a>
+                <span class="icon is-small"
+                  ><i class="fas fa-music" aria-hidden="true"></i
+                ></span>
+                <span>Music</span>
+              </a>
+            </li>
+            <li>
+              <a>
+                <span class="icon is-small"
+                  ><i class="fas fa-film" aria-hidden="true"></i
+                ></span>
+                <span>Videos</span>
+              </a>
+            </li>
+            <li>
+              <a>
+                <span class="icon is-small"
+                  ><i class="far fa-file-alt" aria-hidden="true"></i
+                ></span>
+                <span>Documents</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section">
+        <!-- Main container -->
+        <nav class="level">
+          <!-- Left side -->
+          <div class="level-left">
+            <div class="level-item">
+              <p class="subtitle is-5"><strong>123</strong> posts</p>
+            </div>
+            <div class="level-item">
+              <div class="field has-addons">
+                <p class="control">
+                  <input class="input" type="text" placeholder="Find a post" />
+                </p>
+                <p class="control">
+                  <button class="button">Search</button>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right side -->
+          <div class="level-right">
+            <p class="level-item"><strong>All</strong></p>
+            <p class="level-item"><a>Published</a></p>
+            <p class="level-item"><a>Drafts</a></p>
+            <p class="level-item"><a>Deleted</a></p>
+            <p class="level-item"><a class="button is-success">New</a></p>
+          </div>
+        </nav>
+        <nav class="level">
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="heading">Tweets</p>
+              <p class="title">3,456</p>
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="heading">Following</p>
+              <p class="title">123</p>
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="heading">Followers</p>
+              <p class="title">456K</p>
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="heading">Likes</p>
+              <p class="title">789</p>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <section class="section">
+        <div class="field">
+          <label class="label">Name</label>
+          <div class="control">
+            <input class="input" type="text" placeholder="Text input" />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Username</label>
+          <div class="control has-icons-left has-icons-right">
+            <input
+              class="input is-success"
+              type="text"
+              placeholder="Text input"
+              value="bulma"
+            />
+            <span class="icon is-small is-left">
+              <i class="fas fa-user"></i>
+            </span>
+            <span class="icon is-small is-right">
+              <i class="fas fa-check"></i>
+            </span>
+          </div>
+          <p class="help is-success">This username is available</p>
+        </div>
+
+        <div class="field">
+          <label class="label">Email</label>
+          <div class="control has-icons-left has-icons-right">
+            <input
+              class="input is-danger"
+              type="email"
+              placeholder="Email input"
+              value="hello@"
+            />
+            <span class="icon is-small is-left">
+              <i class="fas fa-envelope"></i>
+            </span>
+            <span class="icon is-small is-right">
+              <i class="fas fa-exclamation-triangle"></i>
+            </span>
+          </div>
+          <p class="help is-danger">This email is invalid</p>
+        </div>
+
+        <div class="field">
+          <label class="label">Subject</label>
+          <div class="control">
+            <div class="select">
+              <select>
+                <option>Select dropdown</option>
+                <option>With options</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Message</label>
+          <div class="control">
+            <textarea class="textarea" placeholder="Textarea"></textarea>
+          </div>
+        </div>
+
+        <div class="field">
+          <div class="control">
+            <label class="checkbox">
+              <input type="checkbox" />
+              I agree to the <a href="#">terms and conditions</a>
+            </label>
+          </div>
+        </div>
+
+        <div class="field">
+          <div class="control">
+            <label class="radio">
+              <input type="radio" name="question" />
+              Yes
+            </label>
+            <label class="radio">
+              <input type="radio" name="question" />
+              No
+            </label>
+          </div>
+        </div>
+
+        <div class="field is-grouped">
+          <div class="control">
+            <button class="button is-link">Submit</button>
+          </div>
+          <div class="control">
+            <button class="button is-link is-light">Cancel</button>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="tile is-ancestor">
+          <div class="tile is-vertical is-8">
+            <div class="tile">
+              <div class="tile is-parent is-vertical">
+                <article class="tile is-child notification is-primary">
+                  <p class="title">Vertical...</p>
+                  <p class="subtitle">Top tile</p>
+                </article>
+                <article class="tile is-child notification is-warning">
+                  <p class="title">...tiles</p>
+                  <p class="subtitle">Bottom tile</p>
+                </article>
+              </div>
+              <div class="tile is-parent">
+                <article class="tile is-child notification is-info">
+                  <p class="title">Middle tile</p>
+                  <p class="subtitle">With an image</p>
+                  <figure class="image is-4by3">
+                    <img
+                      src="https://bulma.io/images/placeholders/640x480.png"
+                    />
+                  </figure>
+                </article>
+              </div>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child notification is-danger">
+                <p class="title">Wide tile</p>
+                <p class="subtitle">Aligned with the right tile</p>
+                <div class="content">
+                  <!-- Content -->
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child notification is-success">
+              <div class="content">
+                <p class="title">Tall tile</p>
+                <p class="subtitle">With even more content</p>
+                <div class="content">
+                  <!-- Content -->
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <form class="box">
+          <div class="field">
+            <label class="label">Email</label>
+            <div class="control">
+              <input
+                class="input"
+                type="email"
+                placeholder="e.g. alex@example.com"
+              />
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">Password</label>
+            <div class="control">
+              <input class="input" type="password" placeholder="********" />
+            </div>
+          </div>
+
+          <button class="button is-primary">Sign in</button>
+        </form>
+        <div class="box">
+          <article class="media">
+            <div class="media-left">
+              <figure class="image is-64x64">
+                <img
+                  src="https://bulma.io/images/placeholders/128x128.png"
+                  alt="Image"
+                />
+              </figure>
+            </div>
+            <div class="media-content">
+              <div class="content">
+                <p>
+                  <strong>John Smith</strong> <small>@johnsmith</small>
+                  <small>31m</small>
+                  <br />
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean efficitur sit amet massa fringilla egestas. Nullam
+                  condimentum luctus turpis.
+                </p>
+              </div>
+              <nav class="level is-mobile">
+                <div class="level-left">
+                  <a class="level-item" aria-label="reply">
+                    <span class="icon is-small">
+                      <i class="fas fa-reply" aria-hidden="true"></i>
+                    </span>
+                  </a>
+                  <a class="level-item" aria-label="retweet">
+                    <span class="icon is-small">
+                      <i class="fas fa-retweet" aria-hidden="true"></i>
+                    </span>
+                  </a>
+                  <a class="level-item" aria-label="like">
+                    <span class="icon is-small">
+                      <i class="fas fa-heart" aria-hidden="true"></i>
+                    </span>
+                  </a>
+                </div>
+              </nav>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section">
+        <div class="buttons">
+          <button class="button is-primary">Primary</button>
+          <button class="button is-link">Link</button>
+        </div>
+
+        <div class="buttons">
+          <button class="button is-info">Info</button>
+          <button class="button is-success">Success</button>
+          <button class="button is-warning">Warning</button>
+          <button class="button is-danger">Danger</button>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="notification is-link">
+          <button class="delete"></button>
+          Primar lorem ipsum dolor sit amet, consectetur adipiscing elit lorem
+          ipsum dolor. <strong>Pellentesque risus mi</strong>, tempus quis
+          placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet
+          fringilla. Nullam gravida purus diam, et dictum
+          <a>felis venenatis</a> efficitur.
+        </div>
+      </section>
+
+      <section class="section">
+        <progress class="progress" value="15" max="100">15%</progress>
+      </section>
+
+      <section class="section">
+        <table class="table">
+          <thead>
+            <tr>
+              <th><abbr title="Position">Pos</abbr></th>
+              <th>Team</th>
+              <th><abbr title="Played">Pld</abbr></th>
+              <th><abbr title="Won">W</abbr></th>
+              <th><abbr title="Drawn">D</abbr></th>
+              <th><abbr title="Lost">L</abbr></th>
+              <th><abbr title="Goals for">GF</abbr></th>
+              <th><abbr title="Goals against">GA</abbr></th>
+              <th><abbr title="Goal difference">GD</abbr></th>
+              <th><abbr title="Points">Pts</abbr></th>
+              <th>Qualification or relegation</th>
+            </tr>
+          </thead>
+          <tfoot>
+            <tr>
+              <th><abbr title="Position">Pos</abbr></th>
+              <th>Team</th>
+              <th><abbr title="Played">Pld</abbr></th>
+              <th><abbr title="Won">W</abbr></th>
+              <th><abbr title="Drawn">D</abbr></th>
+              <th><abbr title="Lost">L</abbr></th>
+              <th><abbr title="Goals for">GF</abbr></th>
+              <th><abbr title="Goals against">GA</abbr></th>
+              <th><abbr title="Goal difference">GD</abbr></th>
+              <th><abbr title="Points">Pts</abbr></th>
+              <th>Qualification or relegation</th>
+            </tr>
+          </tfoot>
+          <tbody>
+            <tr>
+              <th>1</th>
+              <td>
+                <a
+                  href="https://en.wikipedia.org/wiki/Leicester_City_F.C."
+                  title="Leicester City F.C."
+                  >Leicester City</a
+                >
+                <strong>(C)</strong>
+              </td>
+              <td>38</td>
+              <td>23</td>
+              <td>12</td>
+              <td>3</td>
+              <td>68</td>
+              <td>36</td>
+              <td>+32</td>
+              <td>81</td>
+              <td>
+                Qualification for the
+                <a
+                  href="https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Group_stage"
+                  title="2016–17 UEFA Champions League"
+                  >Champions League group stage</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <th>2</th>
+              <td>
+                <a
+                  href="https://en.wikipedia.org/wiki/Arsenal_F.C."
+                  title="Arsenal F.C."
+                  >Arsenal</a
+                >
+              </td>
+              <td>38</td>
+              <td>20</td>
+              <td>11</td>
+              <td>7</td>
+              <td>65</td>
+              <td>36</td>
+              <td>+29</td>
+              <td>71</td>
+              <td>
+                Qualification for the
+                <a
+                  href="https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Group_stage"
+                  title="2016–17 UEFA Champions League"
+                  >Champions League group stage</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <th>3</th>
+              <td>
+                <a
+                  href="https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C."
+                  title="Tottenham Hotspur F.C."
+                  >Tottenham Hotspur</a
+                >
+              </td>
+              <td>38</td>
+              <td>19</td>
+              <td>13</td>
+              <td>6</td>
+              <td>69</td>
+              <td>35</td>
+              <td>+34</td>
+              <td>70</td>
+              <td>
+                Qualification for the
+                <a
+                  href="https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Group_stage"
+                  title="2016–17 UEFA Champions League"
+                  >Champions League group stage</a
+                >
+              </td>
+            </tr>
+            <tr class="is-selected">
+              <th>4</th>
+              <td>
+                <a
+                  href="https://en.wikipedia.org/wiki/Manchester_City_F.C."
+                  title="Manchester City F.C."
+                  >Manchester City</a
+                >
+              </td>
+              <td>38</td>
+              <td>19</td>
+              <td>9</td>
+              <td>10</td>
+              <td>71</td>
+              <td>41</td>
+              <td>+30</td>
+              <td>66</td>
+              <td>
+                Qualification for the
+                <a
+                  href="https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Play-off_round"
+                  title="2016–17 UEFA Champions League"
+                  >Champions League play-off round</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <th>5</th>
+              <td>
+                <a
+                  href="https://en.wikipedia.org/wiki/Manchester_United_F.C."
+                  title="Manchester United F.C."
+                  >Manchester United</a
+                >
+              </td>
+              <td>38</td>
+              <td>19</td>
+              <td>9</td>
+              <td>10</td>
+              <td>49</td>
+              <td>35</td>
+              <td>+14</td>
+              <td>66</td>
+              <td>
+                Qualification for the
+                <a
+                  href="https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Europa_League#Group_stage"
+                  title="2016–17 UEFA Europa League"
+                  >Europa League group stage</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <th>6</th>
+              <td>
+                <a
+                  href="https://en.wikipedia.org/wiki/Southampton_F.C."
+                  title="Southampton F.C."
+                  >Southampton</a
+                >
+              </td>
+              <td>38</td>
+              <td>18</td>
+              <td>9</td>
+              <td>11</td>
+              <td>59</td>
+              <td>41</td>
+              <td>+18</td>
+              <td>63</td>
+              <td>
+                Qualification for the
+                <a
+                  href="https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Europa_League#Group_stage"
+                  title="2016–17 UEFA Europa League"
+                  >Europa League group stage</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <th>7</th>
+              <td>
+                <a
+                  href="https://en.wikipedia.org/wiki/West_Ham_United_F.C."
+                  title="West Ham United F.C."
+                  >West Ham United</a
+                >
+              </td>
+              <td>38</td>
+              <td>16</td>
+              <td>14</td>
+              <td>8</td>
+              <td>65</td>
+              <td>51</td>
+              <td>+14</td>
+              <td>62</td>
+              <td>
+                Qualification for the
+                <a
+                  href="https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Europa_League#Third_qualifying_round"
+                  title="2016–17 UEFA Europa League"
+                  >Europa League third qualifying round</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <th>8</th>
+              <td>
+                <a
+                  href="https://en.wikipedia.org/wiki/Liverpool_F.C."
+                  title="Liverpool F.C."
+                  >Liverpool</a
+                >
+              </td>
+              <td>38</td>
+              <td>16</td>
+              <td>12</td>
+              <td>10</td>
+              <td>63</td>
+              <td>50</td>
+              <td>+13</td>
+              <td>60</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>9</th>
+              <td>
+                <a
+                  href="https://en.wikipedia.org/wiki/Stoke_City_F.C."
+                  title="Stoke City F.C."
+                  >Stoke City</a
+                >
+              </td>
+              <td>38</td>
+              <td>14</td>
+              <td>9</td>
+              <td>15</td>
+              <td>41</td>
+              <td>55</td>
+              <td>−14</td>
+              <td>51</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>10</th>
+              <td>
+                <a
+                  href="https://en.wikipedia.org/wiki/Chelsea_F.C."
+                  title="Chelsea F.C."
+                  >Chelsea</a
+                >
+              </td>
+              <td>38</td>
+              <td>12</td>
+              <td>14</td>
+              <td>12</td>
+              <td>59</td>
+              <td>53</td>
+              <td>+6</td>
+              <td>50</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>11</th>
+              <td>
+                <a
+                  href="https://en.wikipedia.org/wiki/Everton_F.C."
+                  title="Everton F.C."
+                  >Everton</a
+                >
+              </td>
+              <td>38</td>
+              <td>11</td>
+              <td>14</td>
+              <td>13</td>
+              <td>59</td>
+              <td>55</td>
+              <td>+4</td>
+              <td>47</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>12</th>
+              <td>
+                <a
+                  href="https://en.wikipedia.org/wiki/Swansea_City_A.F.C."
+                  title="Swansea City A.F.C."
+                  >Swansea City</a
+                >
+              </td>
+              <td>38</td>
+              <td>12</td>
+              <td>11</td>
+              <td>15</td>
+              <td>42</td>
+              <td>52</td>
+              <td>−10</td>
+              <td>47</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>13</th>
+              <td>
+                <a
+                  href="https://en.wikipedia.org/wiki/Watford_F.C."
+                  title="Watford F.C."
+                  >Watford</a
+                >
+              </td>
+              <td>38</td>
+              <td>12</td>
+              <td>9</td>
+              <td>17</td>
+              <td>40</td>
+              <td>50</td>
+              <td>−10</td>
+              <td>45</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>14</th>
+              <td>
+                <a
+                  href="https://en.wikipedia.org/wiki/West_Bromwich_Albion_F.C."
+                  title="West Bromwich Albion F.C."
+                  >West Bromwich Albion</a
+                >
+              </td>
+              <td>38</td>
+              <td>10</td>
+              <td>13</td>
+              <td>15</td>
+              <td>34</td>
+              <td>48</td>
+              <td>−14</td>
+              <td>43</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>15</th>
+              <td>
+                <a
+                  href="https://en.wikipedia.org/wiki/Crystal_Palace_F.C."
+                  title="Crystal Palace F.C."
+                  >Crystal Palace</a
+                >
+              </td>
+              <td>38</td>
+              <td>11</td>
+              <td>9</td>
+              <td>18</td>
+              <td>39</td>
+              <td>51</td>
+              <td>−12</td>
+              <td>42</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>16</th>
+              <td>
+                <a
+                  href="https://en.wikipedia.org/wiki/A.F.C._Bournemouth"
+                  title="A.F.C. Bournemouth"
+                  >AFC Bournemouth</a
+                >
+              </td>
+              <td>38</td>
+              <td>11</td>
+              <td>9</td>
+              <td>18</td>
+              <td>45</td>
+              <td>67</td>
+              <td>−22</td>
+              <td>42</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>17</th>
+              <td>
+                <a
+                  href="https://en.wikipedia.org/wiki/Sunderland_A.F.C."
+                  title="Sunderland A.F.C."
+                  >Sunderland</a
+                >
+              </td>
+              <td>38</td>
+              <td>9</td>
+              <td>12</td>
+              <td>17</td>
+              <td>48</td>
+              <td>62</td>
+              <td>−14</td>
+              <td>39</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>18</th>
+              <td>
+                <a
+                  href="https://en.wikipedia.org/wiki/Newcastle_United_F.C."
+                  title="Newcastle United F.C."
+                  >Newcastle United</a
+                >
+                <strong>(R)</strong>
+              </td>
+              <td>38</td>
+              <td>9</td>
+              <td>10</td>
+              <td>19</td>
+              <td>44</td>
+              <td>65</td>
+              <td>−21</td>
+              <td>37</td>
+              <td>
+                Relegation to the
+                <a
+                  href="https://en.wikipedia.org/wiki/2016%E2%80%9317_Football_League_Championship"
+                  title="2016–17 Football League Championship"
+                  >Football League Championship</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <th>19</th>
+              <td>
+                <a
+                  href="https://en.wikipedia.org/wiki/Norwich_City_F.C."
+                  title="Norwich City F.C."
+                  >Norwich City</a
+                >
+                <strong>(R)</strong>
+              </td>
+              <td>38</td>
+              <td>9</td>
+              <td>7</td>
+              <td>22</td>
+              <td>39</td>
+              <td>67</td>
+              <td>−28</td>
+              <td>34</td>
+              <td>
+                Relegation to the
+                <a
+                  href="https://en.wikipedia.org/wiki/2016%E2%80%9317_Football_League_Championship"
+                  title="2016–17 Football League Championship"
+                  >Football League Championship</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <th>20</th>
+              <td>
+                <a
+                  href="https://en.wikipedia.org/wiki/Aston_Villa_F.C."
+                  title="Aston Villa F.C."
+                  >Aston Villa</a
+                >
+                <strong>(R)</strong>
+              </td>
+              <td>38</td>
+              <td>3</td>
+              <td>8</td>
+              <td>27</td>
+              <td>27</td>
+              <td>76</td>
+              <td>−49</td>
+              <td>17</td>
+              <td>
+                Relegation to the
+                <a
+                  href="https://en.wikipedia.org/wiki/2016%E2%80%9317_Football_League_Championship"
+                  title="2016–17 Football League Championship"
+                  >Football League Championship</a
+                >
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="section">
+        <div class="tags">
+          <span class="tag is-black">Black</span>
+          <span class="tag is-dark">Dark</span>
+          <span class="tag is-light">Light</span>
+          <span class="tag is-white">White</span>
+          <span class="tag is-primary">Primary</span>
+          <span class="tag is-link">Link</span>
+          <span class="tag is-info">Info</span>
+          <span class="tag is-success">Success</span>
+          <span class="tag is-warning">Warning</span>
+          <span class="tag is-danger">Danger</span>
+        </div>
+
+        <div class="field is-grouped is-grouped-multiline">
+          <div class="control">
+            <div class="tags has-addons">
+              <a class="tag is-link">Technology</a>
+              <a class="tag is-delete"></a>
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="tags has-addons">
+              <a class="tag is-link">CSS</a>
+              <a class="tag is-delete"></a>
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="tags has-addons">
+              <a class="tag is-link">Flexbox</a>
+              <a class="tag is-delete"></a>
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="tags has-addons">
+              <a class="tag is-link">Web Design</a>
+              <a class="tag is-delete"></a>
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="tags has-addons">
+              <a class="tag is-link">Open Source</a>
+              <a class="tag is-delete"></a>
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="tags has-addons">
+              <a class="tag is-link">Community</a>
+              <a class="tag is-delete"></a>
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="tags has-addons">
+              <a class="tag is-link">Documentation</a>
+              <a class="tag is-delete"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <h1 class="title is-1">Extention</h1>
+        <h2 class="title is-2">Divider</h2>
+        <div class="divider" data-content="OR"></div>
+        <h2 class="title is-2">Badge</h2>
+        <div class="column">
+          <button class="button">
+            <span title="Badge top right" class="badge">8</span>
+            Button
+          </button>
+        </div>
+        <h2 class="title is-2">Tooltip</h2>
+        <div class="column">
+          <button class="button is-primary" data-tooltip="Tooltip Text">
+            Tooltip
+          </button>
+        </div>
+      </section>
+      <section class="section">
+        <div class="description-list">
+          <div class="header">
+            <h3 class="title">
+              Applicant Information
+            </h3>
+            <p class="subtitle">
+              Personal details and application.
+            </p>
+          </div>
+          <div class="body">
+            <dl>
+              <div>
+                <dt>
+                  Full name
+                </dt>
+                <dd>
+                  Margot Foster
+                </dd>
+              </div>
+              <div>
+                <dt>
+                  Application for
+                </dt>
+                <dd>
+                  Backend Developer
+                </dd>
+              </div>
+              <div>
+                <dt>
+                  Email address
+                </dt>
+                <dd>
+                  margotfoster@example.com
+                </dd>
+              </div>
+              <div>
+                <dt>
+                  Salary expectation
+                </dt>
+                <dd>
+                  $120,000
+                </dd>
+              </div>
+              <div>
+                <dt>
+                  About
+                </dt>
+                <dd>
+                  Fugiat ipsum ipsum deserunt culpa aute sint do nostrud anim incididunt cillum culpa consequat. Excepteur qui ipsum aliquip consequat sint. Sit id mollit nulla mollit nostrud in ea officia proident. Irure nostrud pariatur mollit ad adipisicing reprehenderit deserunt qui eu.
+                </dd>
+              </div>
+              <div>
+                <dt>
+                  Attachments
+                </dt>
+                <dd>
+                  <ul class="sublist">
+                    <li>
+                      <div>
+                        <span class="truncate">
+                          resume_back_end_developer.pdf
+                        </span>
+                      </div>
+                      <div>
+                        <a href="#">
+                          Download
+                        </a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <span class="truncate">
+                          coverletter_back_end_developer.pdf
+                        </span>
+                      </div>
+                      <div>
+                        <a>
+                          Download
+                        </a>
+                      </div>
+                    </li>
+                  </ul>
+                </dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+
+      </section>
+      <footer class="footer">
+        <div class="content has-text-centered">
+          <p>
+            <strong>Bulma</strong> by
+            <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is
+            licensed
+            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+            The website content is licensed
+            <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+              >CC BY NC SA 4.0</a
+            >.
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
